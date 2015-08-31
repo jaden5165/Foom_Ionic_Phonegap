@@ -15,14 +15,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
     }
 
-    setTimeout(function() {
-        navigator.splashscreen.hide();
-    }, 8000);
-    // // Wait 2secs before hiding splash screen
-    // $timeout(function() {
-    //   $cordovaSplashscreen.hide();
-    // }, 8000);
-
     if (window.StatusBar) {
       // org.apache.cordova.statusbar required
       StatusBar.styleLightContent();
