@@ -1,0 +1,83 @@
+
+/*Change color of active state in tab icons*/
+.tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
+    color: #BD4940;
+    font-weight: 900;
+}
+
+.login-background {
+  background: url(../img/front-page.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.search-background {
+  background: url(../img/search-shake.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.login-button {
+	position:fixed;
+    bottom:100px;    
+    width:100%;
+}
+
+.login-button button.button.button-light{
+	 border-radius: 50px;
+	 padding: 0px;
+	 background-color: darkgrey;
+	 border-color: darkgrey;
+	 color: white;
+   min-height: 0px;
+   line-height: 40px;
+   width:277px;
+
+}
+
+.login-button button.button.button-light.activated{
+	 border-radius: 50px;
+	 padding: 0px;
+	 background-color: grey;
+	 border-color: grey;
+	 color: white;
+   width:277px;
+}
+
+.signup-button {
+	position:fixed;
+    bottom:50px;    
+    width:100%;
+}
+
+.signup-button button.button.button-assertive {
+	 border-radius: 50px;
+	 padding: 0px;
+   min-height: 0px;
+   line-height: 40px;
+   width:277px;
+   background-color: #E42012;
+   border-color: #E42012;
+
+}
+
+.signup-button button.button.button-assertive.activated {
+   border-radius: 50px;
+   padding: 0px;
+   min-height: 0px;
+   line-height: 40px;
+   width:277px;
+   background-color: #BD4940;
+   border-color: #BD4940;
+
+}
+
+.bar-assertive.bar.bar-header.disable-user-behavior {
+  background-color: #E42012;
+  border-color: #E42012;
+}
+
