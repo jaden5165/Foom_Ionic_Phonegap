@@ -15,6 +15,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
     }
 
+    setTimeout(function() {
+        navigator.splashscreen.hide();
+    }, 8000);
     // // Wait 2secs before hiding splash screen
     // $timeout(function() {
     //   $cordovaSplashscreen.hide();
