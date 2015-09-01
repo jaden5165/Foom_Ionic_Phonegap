@@ -5,7 +5,7 @@ angular.module('starter.controllers', [])
   $ionicPlatform.ready(function() {
     setTimeout(function() {
         navigator.splashscreen.hide();
-    }, 5000);
+    }, 3000);
  });
 })
 
