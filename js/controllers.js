@@ -1,6 +1,7 @@
 angular.module('starter.controllers', [])
 
 .run(function($ionicPlatform) {
+  console.log("at controller.js .run");
   $ionicPlatform.ready(function() {
     setTimeout(function() {
         navigator.splashscreen.hide();
@@ -8,7 +9,9 @@ angular.module('starter.controllers', [])
  });
 })
 
-.controller('DashCtrl', function($scope) {})
+.controller('DashCtrl', function($scope) {
+    console.log("at controller.js .controller");
+})
 
 .controller('ChatsCtrl', function($scope) {
   $scope.chats = Chats.all();
