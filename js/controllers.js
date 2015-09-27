@@ -1,13 +1,13 @@
 angular.module('starter.controllers', [])
 
-.run(function($ionicPlatform) {
-  console.log("at controller.js .run");
-  $ionicPlatform.ready(function() {
-    setTimeout(function() {
-        navigator.splashscreen.hide();
-    }, 3000);
- });
-})
+// .run(function($ionicPlatform) {
+//   console.log("at controller.js .run");
+//   $ionicPlatform.ready(function() {
+//     setTimeout(function() {
+//         navigator.splashscreen.hide();
+//     }, 3000);
+//  });
+// })
 
 .controller('DashCtrl', function($scope) {
     console.log("at controller.js .controller");
