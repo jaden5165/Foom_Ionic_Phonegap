@@ -7,17 +7,18 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
-.run(function($ionicPlatform) {
+.run(function($ionicPlatform, $timeout) {
     console.log("at app.js .run");
   $ionicPlatform.ready(function() {
 
-    // $timeout(function() {
-    //     $state.go('home');
-    // }, 8000);
-
-    setTimeout(function() {
+    $timeout(function() {
+        // $state.go('home');
         navigator.splashscreen.hide();
     }, 3000);
+
+    // setTimeout(function() {
+    //     navigator.splashscreen.hide();
+    // }, 3000);
  
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
